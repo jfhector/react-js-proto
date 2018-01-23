@@ -1,4 +1,4 @@
-Simple, ready to use setup for:
+Simple, ready-to-use setup for:
 - Webpack
 - Babel (presets-env, presets-react)
 - React
@@ -15,13 +15,20 @@ Simple, ready to use setup for:
 
 3 Run 'npm start'
 
+# Requirements
+
+- nodejs
+- npm
+
 # Recommended extensions for VSCode
 
-This boilerplate makes use of these VSCode extensions:
+This boilerplate works best with these VSCode extensions (or equivalent in your code editor of choice):
 - ESLint
 - Prettier
 - Stylelint
 - vscode-styled-components
+
+(See the 'VSCODE-USER-SETTINGS' file for ready-to-use VSCode settings).
 
 # Watch outs:
 
