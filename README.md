@@ -31,7 +31,7 @@ This set-up works with babel-plugin-styled-components 1.4.0, but didn't compile 
 
 # My VSCode user settings, including setup for Prettier and Stylelint
 
-{
+`{
       // ZOOM
       "window.zoomLevel": 2,
       // TAB SIZE
@@ -54,4 +54,4 @@ This set-up works with babel-plugin-styled-components 1.4.0, but didn't compile 
       "stylelint.enable": true,
       "css.validate": false,
       "scss.validate": false
-}
+}`
