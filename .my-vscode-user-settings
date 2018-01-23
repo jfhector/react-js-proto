@@ -1,0 +1,24 @@
+{
+      // ZOOM
+      "window.zoomLevel": 2,
+      // TAB SIZE
+      "editor.tabSize": 6,
+      "editor.detectIndentation": false,
+      // SNIPPETS
+      "editor.snippetSuggestions": "bottom",
+      // EXPLORER
+      "explorer.openEditors.visible": 0,
+      "editor.minimap.enabled": false,
+      "workbench.statusBar.visible": true,
+      // PRETTIER
+      // Format a file on save. A formatter must be available, the file must not be auto-saved, and editor must not be shutting down.
+      "editor.formatOnSave": false,
+      // Enable/disable default JavaScript formatter (For Prettier)
+      "javascript.format.enable": false,
+      // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+      "prettier.eslintIntegration": false,
+      // STYLELINT
+      "stylelint.enable": true,
+      "css.validate": false,
+      "scss.validate": false
+}
