@@ -5,12 +5,13 @@ Simple, ready to use setup for:
 - Styled components (babel-plugin-styled-components, for proper DevTools support)
 - Eslint
 - Prettier
+- Git
 
 # Installation
 
-1 Download to a local folder
+1 Download to a local folder (or clone by running 'git clone https://github.com/jfhector/prototype' in your terminal)
 
-2 Run 'npm install' in your terminal
+2 Run 'npm install'
 
 3 Run 'npm start'
 
