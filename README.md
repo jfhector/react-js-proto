@@ -30,7 +30,7 @@ This boilerplate works best with these VSCode extensions (or equivalent in your 
 
 (See the 'VSCODE-USER-SETTINGS' file for ready-to-use VSCode settings).
 
-# Watch outs:
+# Watch outs
 
 **Tilde on babel-plugin-styled-components dependency in package.json**
 
