@@ -15,7 +15,7 @@ Simple, ready to use setup for:
 
 3 Run 'npm start'
 
-# Recommended extensions on VSCode
+# Recommended extensions for VSCode
 
 This boilerplate makes use of these VSCode extensions:
 - ESLint
