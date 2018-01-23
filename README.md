@@ -34,4 +34,4 @@ This boilerplate works best with these VSCode extensions (or equivalent in your 
 
 **Tilde on babel-plugin-styled-components dependency in package.json**
 
-This set-up works with babel-plugin-styled-components 1.4.0, but didn't compile with 1.5.0. So ensure that 1.5.x doesn't install automatically I've used a ~ by the version number in package.json. Replace it with a caret only after testing.
+This set-up works with babel-plugin-styled-components 1.4.0, but didn't compile with 1.5.0. So ensure that 1.5.x doesn't install automatically I've used a ~ by the version number in package.json. Replace it with a caret only after testing. Alternatively, you can uninstall this dependency and remove its mention from .babelrc.
