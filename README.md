@@ -31,7 +31,8 @@ This set-up works with babel-plugin-styled-components 1.4.0, but didn't compile 
 
 # My VSCode user settings, including setup for Prettier and Stylelint
 
-`{
+`
+{
 
       // ZOOM
       
@@ -77,4 +78,5 @@ This set-up works with babel-plugin-styled-components 1.4.0, but didn't compile 
       
       "scss.validate": false
       
-}`
+}
+`
