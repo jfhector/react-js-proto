@@ -4,8 +4,9 @@ Simple, ready to use boiler place setting up:
 - Webpack
 - Babel (presets-env, presets-react)
 - React
-- Styled components
-- babel-plugin-styled-components
+- Styled components (babel-plugin-styled-components, for proper DevTools support)
+- Eslint
+- Prettier
 
 # Installation
 
