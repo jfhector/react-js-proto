@@ -1,6 +1,6 @@
 # react-rapid-prototyping-boilerplate
 
-Simple, ready to use boiler place setting up:
+Simple, ready to use setup for:
 - Webpack
 - Babel (presets-env, presets-react)
 - React
