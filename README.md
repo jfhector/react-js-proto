@@ -10,7 +10,9 @@ Simple, ready to use boiler place setting up:
 # Installation
 
 1 Clone in a local folder
+
 2 Run npm install
+
 3 Run npm start
 
 # Watch outs: ~ on babel-plugin-styled-components dependency in package.json
