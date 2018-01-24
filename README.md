@@ -3,6 +3,7 @@ Simple, ready-to-use setup for:
 - Babel (presets-env, presets-react)
 - React
 - Styled components (babel-plugin-styled-components, for proper Chrome DevTools support)
+- CSS Modules
 - Eslint
 - Prettier
 - Git
