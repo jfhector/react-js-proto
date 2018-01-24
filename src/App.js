@@ -4,7 +4,7 @@ import styles from './app.css'
 
 export function App() {
 	return (
-            <div className="element">
+            <div className="title">
                   Hello from React and Styled Components!
 
                   <div className="myClass" />
