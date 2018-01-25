@@ -1,6 +1,86 @@
-.title {
-      background-color: plum;
-      color: white;
-      font-size: 20px;
-      padding: 20px;
+.background-container {
+      background-color: #F2F2F2;
+      flex: 1;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+}
+
+.tabs-header {
+      margin-bottom: 19px;
+}
+
+.view {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+      margin-bottom: 5rem;
+}
+
+.sidebar {
+      position: sticky;
+      top: 2rem;
+}
+
+.sidebar-container-dropdowns {
+      position: absolute;
+
+      width: 230px;
+      height: 30px;
+
+      left: 20px;
+
+      background-color:white;
+}
+
+.sidebar-container-dropdown-1 {
+      top: 89px;
+}
+
+.sidebar-container-dropdown-2 {
+      top: 129px;
+}
+
+.sidebar-container-dropdown-3 {
+      top: 169px;
+}
+
+.sidebar-container-dropdown-4 {
+      top: 319px;
+}
+
+.sidebar-container-dropdown-5 {
+      top: 359px;
+}
+
+.sidebar-container-dropdown-6 {
+      top: 399px;
+}
+
+.sidebar-container-dropdown-7 {
+      top: 439px;
+}
+
+.main {
+      margin-left: 2rem;
+
+      position: relative;
+}
+
+.main-container-kpiTiles {
+      position: absolute;
+      top: 139px;
+      left: 19px;
+
+      height: 353px;
+      width: 809px;
+      background-color: white;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
 }

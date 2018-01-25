@@ -1,0 +1,72 @@
+.container {
+      width: 262px;
+      height: 110px;
+
+      border-radius: 3px;
+      border: 1px solid #CCCCCC;
+      background-color: #F9F9F9;
+
+      padding: 15px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+}
+
+.container-selected {
+      width: 262px;
+      height: 110px;
+
+      border-radius: 3px;
+      background-color: white;
+      border: 2px solid #008CAE;
+
+      padding: 15px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: stretch;
+}
+
+.container:hover {
+      border: 1px solid #008CAE;
+      background-color: white;
+      cursor: pointer;
+
+}
+
+.measure-name {
+      color: #42A8C1;
+      font-weight: bold;
+      font-size: 14px;
+}
+
+.measure-name:hover {
+      text-decoration: underline;
+}
+
+.measure-value {
+      font-weight: bold;
+      font-size: 22px;     
+}
+
+.changesMeasuresRow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.changeMeasure {
+      font-size: 14px;
+      font-weight: bold;
+}
+
+.changeMeasureUp {
+      color: #378138;
+}
+
+.changeMeasureDown {
+      color: #A94442;
+}
