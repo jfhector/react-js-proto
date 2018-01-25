@@ -1,1 +1,6 @@
 node_modules/
+
+dist/assets/*.png
+
+src/*.js
+src/*.css
