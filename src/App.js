@@ -386,7 +386,7 @@ export class App extends React.Component {
                         <div className={this.state.displayWarningBanner ? "warningBanner" : "hiddenElement"}
                         onClick={this.handleUpdateButtonOnClick}
                         >
-                              To see data for your new selection, press the <span className="bold">&nbsp;Update&nbsp;</span> button in the side bar. 
+                              To update the view based on your selection, press the <span className="bold">&nbsp;Update&nbsp;</span> button. 
                         </div>
 			</div>
 		)
