@@ -1,0 +1,27 @@
+.button {
+      width: 230px;
+      height: 40px;
+
+      font-size: 14px;
+      font-weight: bold;
+
+      border-radius: 5px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.button-active {
+      background-color: #42A8C1;
+      border: 1px solid #42A8C1;
+      color: white;
+
+      cursor: pointer;
+}
+
+.button-inactive {
+      background-color: #D9D9D9;
+      border: 1px solid #C9C9C9;
+      color: #9F9F9F;
+}

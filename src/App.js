@@ -2,6 +2,7 @@ import React from "react"
 
 import { KpiTile } from "./components/KpiTile"
 import { Selector } from "./components/Selector"
+import { Button } from './components/Button'
 
 import "./app.css"
 
@@ -19,6 +20,8 @@ export class App extends React.Component {
             this.handleCustomerTypeSelectorChange = this.handleCustomerTypeSelectorChange.bind(this)
             this.handleRegionSelectorChange = this.handleRegionSelectorChange.bind(this)
             
+            this.handleUpdateButtonOnClick = this.handleUpdateButtonOnClick.bind(this)
+
 		this.state = {
                   selectedTile: "SALES VALUE",
 
@@ -30,6 +33,8 @@ export class App extends React.Component {
                   selectedStoreFormat: "All store formats",
                   selectedCustomerType: "All customer types",
                   selectedRegion: "All regions",
+
+                  displayWarningBanner: false,
             }
       }
       
@@ -45,6 +50,7 @@ export class App extends React.Component {
             // console.log("handleDurationSelectorChange");
             this.setState({
                   selectedDuration: event.target.value,
+                  displayWarningBanner: true,
             })
       }
 
@@ -52,6 +58,7 @@ export class App extends React.Component {
             // console.log("handleDatesSelectorChange");
             this.setState({
                   selectedDates: event.target.value,
+                  displayWarningBanner: true,
             })            
       }
 
@@ -59,35 +66,48 @@ export class App extends React.Component {
             // console.log("handleComparisonSelectorChange");
             this.setState({
                   selectedComparison: event.target.value,
+                  displayWarningBanner: true,
             })            
       }
 
       handleSubcategorySelectorChange(event) {
-            // console.log("handleComparisonSelectorChange");
+            // console.log("handleSubcategorySelectorChange");
             this.setState({
                   selectedSubcategory: event.target.value,
+                  displayWarningBanner: true,
             })            
       }
 
       handleStoreFormatSelectorChange(event) {
-            // console.log("handleComparisonSelectorChange");
+            // console.log("handleStoreFormatSelectorChange");
             this.setState({
                   selectedStoreFormat: event.target.value,
+                  displayWarningBanner: true,
             })            
       }
 
       handleCustomerTypeSelectorChange(event) {
-            // console.log("handleComparisonSelectorChange");
+            // console.log("handleCustomerTypeSelectorChange");
             this.setState({
                   selectedCustomerType: event.target.value,
+                  displayWarningBanner: true,
             })            
       }
 
       handleRegionSelectorChange(event) {
-            // console.log("handleComparisonSelectorChange");
+            // console.log("handleRegionSelectorChange");
             this.setState({
                   selectedRegion: event.target.value,
+                  displayWarningBanner: true,
             })            
+      }
+
+      handleUpdateButtonOnClick() {
+            console.log("handleUpdateButtonOnClick");
+
+            this.setState({
+                  displayWarningBanner: false
+            })
       }
 
 	render() {
@@ -234,6 +254,13 @@ export class App extends React.Component {
                                           handleSelectorChange={this.handleRegionSelectorChange}
                                           />
                                     </div>
+
+                                    <div className="sidebar-button-container">
+                                          <Button 
+                                          active={this.state.displayWarningBanner}
+                                          onClick={this.handleUpdateButtonOnClick}
+                                          />
+                                    </div>
                               </div>
 
 					<div className="main">
@@ -355,6 +382,12 @@ export class App extends React.Component {
 					width="1155"
 					height="70"
 				/>
+
+                        <div className={this.state.displayWarningBanner ? "warningBanner" : "hiddenElement"}
+                        onClick={this.handleUpdateButtonOnClick}
+                        >
+                              To see data for your new selection, press the <span className="bold">&nbsp;Update&nbsp;</span> button in the side bar. 
+                        </div>
 			</div>
 		)
 	}
