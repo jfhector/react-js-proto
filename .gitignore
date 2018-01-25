@@ -1,6 +1,9 @@
+# ignore all files in the build/ directory
+#build/
 node_modules/
 
+# ignore doc/notes.txt, but not doc/server/arch.txt
+# doc/*.txt
 dist/assets/*.png
-
 src/*.js
 src/*.css
