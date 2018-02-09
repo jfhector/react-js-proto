@@ -1,35 +1,22 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import styled from 'styled-components'
-import {colors} from './docStyles'
-import {
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-} from './components/'
+import { AppContainer } from 'react-hot-loader'
 
-class Component extends React.Component {
-      constructor(props) {
-            super(props)
-
-            this.state = {
-            }
-      }
-
-      render() {
-            const {
-                  className,
-            } = this.props
-
-            return (
-
-                  <div className={className}>
-                        Test
-                  </div>
-
-            )
-      }
+const render = Component => {
+      ReactDOM.render(
+            <AppContainer>
+                  <App />
+            </AppContainer>,
+            document.getElementById('root')
+      )
 }
 
-const App = styled(Component)`
-`
+render(App)
 
-ReactDOM.render(<App />, document.getElementById("root"))
+if (module.hot) {
+      module.hot.accept('./App', () => {
+            render(App)
+      })
+}
