@@ -44,7 +44,7 @@
 	"react/jsx-indent": "off",
 	"no-tabs": "off",
 	"indent": "off",
-	"comma-dangle": "warn",
+	"comma-dangle": "off",
 	"no-console": "off",
 	"import/prefer-default-export": "off",
       "import/extensions": "off",
@@ -59,6 +59,18 @@
       "function-paren-newline": "off",
       "react/no-array-index-key": "warn",
       "spaced-comment": "off",
-      "no-unneeded-ternary": "off"
+      "no-unneeded-ternary": "off",
+      "arrow-parens": "off",
+      "dot-notation": "off",
+      "react/jsx-no-bind": "off",
+      "jsx-quotes": "off",
+      "jsx-a11y/label-has-for": "off",
+      "react/jsx-max-props-per-line": "off",
+      "react/no-unused-state": "warn",
+      "no-confusing-arrow": "off",
+      "react/require-default-props": "warn",
+      "no-mixed-operators": "warn",
+      "consistent-return": "warn",
+      "object-shorthand": "warn"
 	}
 }
