@@ -5,7 +5,7 @@
 	},
 	"parser": "babel-eslint",
 	"extends": "airbnb",
-	"plugins": ["react", "jsx-a11y", "import"],
+	"plugins": ["react", "import"],
 	"rules": {
 	"space-in-parens": "off",
 	"object-curly-spacing": "off",
@@ -71,6 +71,9 @@
       "react/require-default-props": "warn",
       "no-mixed-operators": "warn",
       "consistent-return": "warn",
-      "object-shorthand": "warn"
+      "object-shorthand": "warn",
+      "react/jsx-curly-brace-presence": "warn",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "object-curly-newline": "off"
 	}
 }

@@ -122,7 +122,7 @@ injectGlobal`
 
       body {
             margin: 0;
-            background-color: ${colors.bgColor.background.athensGray.valueOf};
+            background-color: ${colors.bgColor.background.athensGray};
       }
 
       * {
