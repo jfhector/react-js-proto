@@ -74,6 +74,9 @@
       "object-shorthand": "warn",
       "react/jsx-curly-brace-presence": "warn",
       "jsx-a11y/no-noninteractive-element-interactions": "off",
-      "object-curly-newline": "off"
+      "object-curly-newline": "off",
+      "no-else-return": "warn",
+      "radix": "off",
+      "react/forbid-prop-types": "warn"
 	}
 }
